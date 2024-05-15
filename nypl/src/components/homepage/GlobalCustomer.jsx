@@ -5,7 +5,7 @@ const GlobalCustomer = () => {
     <>
     
     <div className='global-customer'>
-        <div className='container-fluid'>
+        <div className='container'>
             <div className='row customer-row'>
                 <div className='col-lg-3 customer-col'>
                     <h1>Global  Customers</h1>

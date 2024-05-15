@@ -302,7 +302,6 @@ span2{
     width: 15%;
 }
 .global-customer{
-    padding-left: 5%;
     padding-top: 7%;
 }
 .customer-row{
@@ -328,13 +327,13 @@ span2{
 .customer-companies{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 90px;
     align-items: center;
     justify-content: center;
 }
 .customer-companies img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 .customer-companies .rail-coach{
     border-radius: 50%;
@@ -420,7 +419,7 @@ span2{
     }
     .our-products .swiper-button-prev{
         margin: 0;
-        margin-left: 60%;
+        margin-left: 56%;
         
     }
     .product-card img{
@@ -455,10 +454,10 @@ span2{
         padding: 30px;
     }    
     .certificates .swiper-button-prev{
-        margin-left: 30%;
+        margin-left: 25%;
     }
     .certificates .swiper-button-next{
-        margin-right: 30%;
+        margin-right: 25%;
     }
     .global-customer{
         padding: 20% 5%;
