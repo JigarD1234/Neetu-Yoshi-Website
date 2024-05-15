@@ -1,0 +1,489 @@
+.ny-home{
+  z-index: -1;
+  min-height: 100vh;
+}
+.ny-wrapper{
+    padding-top:4%;
+    background: linear-gradient(rgb(206,181,135) ,rgb(255, 244, 226)  , rgb(206,181,135));
+    background-repeat: repeat;
+    padding-bottom: 15%;
+}
+#swiper-slides-1{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/images/homeslider1.jpg');
+    background-size: cover;
+}
+#swiper-slides-2{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/images/homeslider2.jpg');
+    background-size: cover; 
+}
+.swiper-slides{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 12%;
+    flex-direction: column;
+}
+.swiper-slides h2{
+    color: white;
+    font-size: 40px;
+    width: 70%;
+}
+.swiper-slides .ny-home-content{
+    /* padding-left: 10%; */
+    padding-left: 10%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.ny-home-content button{
+    width: 15%;
+    padding: 12px 22px;
+    margin-top: 1%;
+    background-color: #ffe0a6;
+}
+.ny-home-content p{
+    color: rgb(210, 210, 210);
+    font-size: 25px;
+}
+.ny-home .swiper-button-prev , .ny-home .swiper-button-next{
+    color:#CEB587;
+    padding: 0px 30px;
+    width: 10px !important;
+    height: 10px !important;
+    margin-top: -100px;
+    
+    
+}
+.ny-home .swiper-button-prev::after , .ny-home .swiper-button-next::after{
+    color: #CEB587 !important;
+}
+.ny-home .swiper-pagination-bullet{
+    display: none;
+}
+.ny-card-section{
+    position: relative;
+    margin-top: -200px;
+    z-index: 1;
+}
+.ny-card-section span{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #e9ce9b;
+    position: absolute;
+    top: -90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.ny-card-wrapper{
+    display: flex;
+    padding-bottom: 6%;
+    justify-content: center;
+    gap: 5%;
+
+}
+.ny-card{
+    background-color: #e9ce9b;
+    /* background: linear-gradient(rgb(206,181,135) , white); */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    box-shadow: 1px 2px 5px black;
+}
+.ny-card h2{
+    margin-top: 5%;
+    
+}
+.ny-card img{
+    width: 100%;
+    height: 30vh;
+   
+}
+.ny-about-row{
+    display: flex;
+    align-items: center;
+    /* padding-left: 5%; */
+    padding: 0;
+    margin: 0;
+}
+.ny-about-col{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+   
+}
+
+.ny-about-col p{
+    color: rgb(69, 69, 69);
+}
+
+.ny-about-img
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+    padding: 0 !important;
+}
+.ny-about-img img{
+    width: 60%;
+    height: 100%;
+    box-shadow: -80px 80px #e9ce9b;
+}
+.our-products{
+    margin-top: 5%;
+    /* margin-left: 5%; */
+    /* padding-left: 5%; */
+    /* padding-right: 5%; */
+    position: relative;
+}
+.swiper-products{
+    margin-top: 6%;
+}
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s all;
+    width: 100%;
+}
+.product-card:hover{
+    opacity: 0.8;
+    filter: grayscale(1);
+    padding: 1%;
+}
+.product-card img{
+    width: 100%;
+    height: 50vh;
+    box-shadow: 1px 3px 6px black;
+}
+
+.product-header{
+    padding-right: 5%;
+}
+.product-header{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.product-header h2.section-heading::after{
+    width: 200px;
+}
+.product-card p{
+    background-color: black;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    width: 70%;
+    margin-top: -20px;  
+    font-family: 'unna';
+    font-size: 25px;
+}
+.our-products .swiper-button-prev ,.our-products .swiper-button-next{
+    position: absolute !important;
+    top: 30px;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+.ny-card-about
+{
+    position: relative;
+}
+span2{
+    position:absolute;
+    opacity: 0.03;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 200px;
+    top: 10px;
+    left: 20px;
+}
+.our-products .swiper-button-prev{
+   margin-left: 90%;
+}
+.our-products span2{
+    top: -50px;
+    left: 45%;
+    font-size: 150px;
+}
+.certificates{
+    position: relative;
+}
+.certificates span2{
+    top: -200px;
+}
+
+.certificate-start-img{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.certificate-start-img img{
+    width: 60%;
+    z-index: 1;
+    margin-top: 10%;
+}
+
+.certificates span3{
+    background-color: #CEB587;
+    position: absolute;
+    width: 40%;
+    height: 55vh;
+    left: 0;
+    top: 130px;
+}
+.certificate-card img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* box-shadow: -100px -100px #CEB587; */
+}
+.certificate-start-img .swiper-button-prev , .certificate-start-img .swiper-button-next{
+    position:absolute;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    top: 250px;
+}
+.certificate-card-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.swiper-notification{
+    display: none;
+}
+.certificate-heading-col{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    flex-wrap: nowrap;
+    /* gap: 30px; */
+    margin-left: 5%;
+    /* border: 1px solid black; */
+}
+.certificate-heading-col h2{
+    margin-bottom: 5%;
+
+}
+.certificate-heading-col p{
+    font-size: 15px;
+}
+.quote-left{
+    margin-right: 1%;
+    font-size: 40px;
+}
+.quote-right{
+    margin-left: 1%;
+    font-size: 40px;
+}
+.global-customer{
+    background-color: rgb(31, 31, 31);
+    min-height: 100vh;
+}
+.view-all-certificates{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.view-all-certificates .btn-read-more{
+
+    width: 15%;
+}
+.global-customer{
+    padding-left: 5%;
+    padding-top: 7%;
+}
+.customer-row{
+    display: flex;
+    justify-content: center;
+}
+.customer-col h1{
+    color: white;
+    font-size: 70px; 
+    position: relative;
+}
+.customer-col h1::after{
+    position: absolute;
+    content: '';
+    width: 200px;
+    background-color: #CEB587;
+    height: 3px;
+    left: 0;
+    top: 180px;
+
+}
+
+.customer-companies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.customer-companies img{
+    width: 200px;
+    height: 200px;
+}
+.customer-companies .rail-coach{
+    border-radius: 50%;
+}
+@media screen and (max-width:800px) {
+    span2{
+        font-size: 10px !important;
+    }
+    .ny-wrapper{
+        padding-top: 15%;
+    }
+    .swiper-slides{
+        padding-top: 50%;
+    }
+    .swiper-slides h2{
+        font-size: 30px;
+        width: 100%;
+    }
+    .swiper-slides button{
+        width: 50%;
+        margin-top: 10%;
+    }
+    .ny-home .swiper-button-prev , .ny-home .swiper-button-next{
+        padding: 0px 10px;
+    }
+    .ny-card-section{
+        /* margin: 0px; */
+        padding: 0 7%;
+    }
+    .ny-card-wrapper{
+      gap: 40px;
+    }
+    .ny-card{
+        padding: 5%;
+        border-radius: 10px;
+    }
+    .ny-card img{
+        width: 90%;
+        height: 30vh;
+        border-radius: 10px;
+    }
+    .ny-card-about{
+        padding: 10% 5%;
+    }
+    .ny-about-col{
+        gap: 0px;
+    }
+    .ny-about-col h3{
+        margin: 7% 0;
+    }
+    s
+    .ny-about-col p{
+        font-size: 14px;
+    }
+    .ny-about-img{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+
+    }
+    .ny-about-img img{
+        margin-top: 15%;
+        box-shadow: none;
+        box-shadow: -40px 40px #CEB587;
+    }
+    .our-products{
+        padding: 10% 5%;
+    }
+    .product-header{
+        padding: 0;
+    }
+    .product-header p{
+        font-size: 14px;
+    }
+    .swiper-products{
+        margin-top: 20%;
+    }
+    .our-products .swiper-button-prev ,.our-products .swiper-button-next{
+        top: 0px;
+        margin: 0;
+        padding: 25px;
+
+    }
+    .our-products .swiper-button-prev{
+        margin: 0;
+        margin-left: 60%;
+        
+    }
+    .product-card img{
+        width: 100%;
+        height: 40vh;
+    }
+    .certificate-card img{
+        width: 300px;
+        margin: 0;
+    }
+    .certificates , .certificate-start-img{
+        margin: 0 !important;
+        
+    }
+    .view-all-certificates .btn-read-more{
+        width: 50% ;
+    }
+    .certificate-heading-col{
+        margin: 0;
+        padding: 0 5% !important;
+         
+    }
+    .certificate-heading-col p{
+        text-align: justify;
+        font-size: 14px;
+    }
+    span3{
+        display: none;
+    }
+    .certificates .swiper-button-prev , .certificates .swiper-button-next{
+        top: 80%;
+        padding: 30px;
+    }    
+    .certificates .swiper-button-prev{
+        margin-left: 30%;
+    }
+    .certificates .swiper-button-next{
+        margin-right: 30%;
+    }
+    .global-customer{
+        padding: 20% 5%;
+    }
+    .global-customer h1{
+        font-size: 40px;
+    }
+    .customer-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .customer-col h1::after{
+         top: 50px;
+         left: 40px;
+    }
+    .customer-companies{
+        padding-top: 20%;
+    }
+    .customer-companies img{
+        width: 100px;
+        height: 100px;
+
+
+    }
+
+    
+}
