@@ -25,16 +25,18 @@ const Footer = () => {
           {/* <h4>Disclaimer</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada faucibus ex nec ultricies.</p> */}
           <img src='/images/neetuyoshilogo.png'/>
-          <p> At NNM, we believe in fostering long-term relationships built on trust, transparency, and mutual success. <em>Discover the difference with NNM today !!</em></p>
+          <p> At Neetu Yoshi, we believe in fostering long-term relationships built on trust, transparency, and mutual success.</p>
         </div>
         <div className="column">
           <h4>Navigation Links</h4>
           <ul>
             <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/fund-details">Fund Details</NavLink></li>
-            <li><NavLink to="/how-we-do-it">How We Do It</NavLink></li>
-            <li><NavLink to="/sme">What is SME</NavLink></li>
-            <li><NavLink to="/case-studies">Case Studies</NavLink></li>
+            <li><NavLink to="/fund-details">About Us</NavLink></li>
+            <li><NavLink to="/how-we-do-it">Manufacturing</NavLink></li>
+            <li><NavLink to="/sme">Certification</NavLink></li>
+            <li><NavLink to="/case-studies">Global Customer</NavLink></li>
+            <li><NavLink to="/contact-us">Sustainability</NavLink></li>
+            <li><NavLink to="/contact-us">Investor</NavLink></li>
             <li><NavLink to="/contact-us">Contact Us</NavLink></li>
           </ul>
         </div>
@@ -42,23 +44,23 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <div className="contact-info">
             <div>
-              <MdLocationOn className="icon" /> B - 6 & 7, Plot No. 31, Shri Siddhivinayak Plaza, 2nd Floor,C.T. No. 602, Village Oshiwara, Off Link Road,  Andheri (West), Mumbai – 400058
+              <MdLocationOn className="icon" /> Khasra number 255/256, Village Fakkarherri. Bhagwanpur, Haridwar
 
             </div>
-            <div>
+            {/* <div>
               <FaPhone className="icon" /> 022 4079 0011/48
+            </div> */}
+            <div>
+              <BiSolidMobile className="icon" /> +91 9760222255
             </div>
             <div>
-              <BiSolidMobile className="icon" /> +91 97688006000
-            </div>
-            <div>
-              <FaEnvelope className="icon" /> nikunj@nnmsecurties.com
+              <FaEnvelope className="icon" /> Contact@neetuyoshi.com
             </div>
           </div>
         </div>
       </div>
       <div className="copyright d-flex">
-        <p>&copy; {new Date().getFullYear()} nnmsecurties. All rights reserved. </p>
+        <p>&copy; {new Date().getFullYear()} neetu yoshi. All rights reserved. </p>
         <p>Designed & Developed By <NavLink to='https://cokaco.com'>Cokaco</NavLink> </p>
       </div>
     </footer>
